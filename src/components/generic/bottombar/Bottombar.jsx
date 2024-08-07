@@ -9,7 +9,7 @@ const Bottombar = () => {
   return (
     <div className="lg:hidden">
       <div
-        className=" border-t-2 p-5 justify-evenly fixed bg-white border bottom-[0px] w-full  gap-5
+        className=" border-t-2 py-2 px-5 justify-evenly fixed bg-white border bottom-[0px] w-full  gap-5
          items-center flex"
       >
         {bottomBarItems.map((item) => (
