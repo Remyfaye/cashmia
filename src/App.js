@@ -20,7 +20,9 @@ const App = () => {
         <Route path="/Me" element={<Me />} />
       </Routes>
 
-      <Bottombar />
+      <div className="mt-32">
+        <Bottombar />
+      </div>
       <Leftbar />
       <Rightbar />
     </div>

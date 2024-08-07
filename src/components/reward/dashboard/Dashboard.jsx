@@ -5,7 +5,7 @@ import HeroReward from "./HeroReward";
 
 function Dashboard({ setToggleDetails }) {
   return (
-    <div>
+    <div className="bg-[#E9E0E0] ">
       {" "}
       <HeroReward />
       <div className=" relative -top-16 m-5 py-5 px-3 items-center rounded-[10px] bg-white flex justify-between">
@@ -40,10 +40,10 @@ Cashback"
         desc="Buy Airtime and get up to 6% 
 Cashback"
       />
-      <div className="flex justify-center gap-3 pt-5 text-[#981014] ">
+      <div className="flex mt-10 justify-center gap-3 pt-5 text-[#981014] ">
         <p
           onClick={() => setToggleDetails(true)}
-          className="cursor-pointer font-bold  text-[#981014] "
+          className="cursor-pointer my-32 font-bold  text-[#981014] "
         >
           View Details
         </p>
