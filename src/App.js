@@ -8,12 +8,13 @@ import Me from "./pages/Me";
 import Bottombar from "./components/generic/bottombar/Bottombar";
 import Rightbar from "./components/generic/sidebar/Rightbar";
 import Leftbar from "./components/generic/sidebar/Leftbar";
+import WalletBalance from "./components/reward/walletBalance/WalletBalance";
 
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Reward />} />
+        <Route path="/" element={<WalletBalance />} />
         <Route path="/reward" element={<Reward />} />
         <Route path="/finance" element={<Finance />} />
         <Route path="/card" element={<Card />} />

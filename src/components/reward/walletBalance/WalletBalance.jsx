@@ -22,15 +22,17 @@ function WalletBalance() {
         <img className="object-contain" src={down} alt="ss" />
       </div>
       <p className="w-[90%] m-auto text-sm font-bold  my-5">May, 2024</p>
-      {walletCard.map((item) => (
-        <CardItemsWallet
-          icon={item.icon}
-          title={item.title}
-          desc={item.desc}
-          price={item.price}
-          balance={item.balance}
-        />
-      ))}
+      <div className="pb-10">
+        {walletCard.map((item) => (
+          <CardItemsWallet
+            icon={item.icon}
+            title={item.title}
+            desc={item.desc}
+            price={item.price}
+            balance={item.balance}
+          />
+        ))}
+      </div>
     </div>
   );
 }
