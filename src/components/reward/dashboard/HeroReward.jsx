@@ -3,7 +3,7 @@ import { next, setting } from "../../../constants/images";
 
 function HeroReward() {
   return (
-    <div className="p-5 bg-[#E8D1D1] pb-20">
+    <div className="p-5 bg-[#d3b6b6] pb-20">
       <h1 className="font-extrabold text-3xl">Rewards</h1>
 
       <div className="flex justify-between">
