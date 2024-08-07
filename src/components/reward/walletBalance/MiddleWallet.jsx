@@ -4,7 +4,7 @@ import { watering } from "../../../constants/images";
 function MiddleWallet() {
   return (
     <div>
-      <img src={watering} alt="" />
+      <img className="w-full object-cover" src={watering} alt="" />
       <div className="relative bottom-7 mb-8 mx-5 bg-[#E8D1D1] p-3 text-sm text-center rounded-[10px]">
         After Opening, the funds are transferred to Cwealth in real time to
         obtain interest
